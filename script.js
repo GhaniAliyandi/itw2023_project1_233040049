@@ -21,7 +21,7 @@ window.onscroll = () => {
         if(top >= offset && top < offset + height) {
             navLinks.forEach(links => {
                 links.classList.remove('active');
-                document.querySelector('header nav a[href*=' = ']').classList.add('active');
+                document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             });
         };
     });
@@ -30,7 +30,7 @@ window.onscroll = () => {
 
     header.classList.toggle('sticky', window.scrollY > 100);
 
-    /*==================== remove toggle icon and navbar when click navbar link  (scroll)====================*/
+    /*==================== remove toggle icon and navbar when click navbar link (scroll) ====================*/
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
 };
@@ -52,7 +52,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'YouTuber', 'Blogger'],
+    strings: ['Mahasiswa', 'Musisi', 'Model'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,

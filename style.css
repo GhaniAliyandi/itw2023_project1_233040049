@@ -88,10 +88,10 @@ section {
     width: 35vw;
     border-radius: 50%;
     margin-left: 50px;
-    animation: floatImg 4s ease-in-out infinite;
+    animation: floatImage 4s ease-in-out infinite;
 }
 
-@keyframes floatImg {
+@keyframes floatImage {
     0% {
         transform: translateY(0);
     }
@@ -393,13 +393,13 @@ span {
 
 
 /* BREAKPOINTS */
-@media (max-widht: 1200px) {
+@media (max-width: 1200px) {
     html {
         font-size: 55%;
     }
 }
 
-@media (max-widht: 991px) {
+@media (max-width: 991px) {
     .header {
         padding: 2rem 3%;
     }
@@ -425,7 +425,7 @@ span {
     }
 }
 
-@media (max-widht: 768px) {
+@media (max-width: 768px) {
     #menu-icon {
         display: block;
     }
