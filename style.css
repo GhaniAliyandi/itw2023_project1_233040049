@@ -423,6 +423,10 @@ span {
     .footer {
         padding: 2rem 3%;
     }
+    .about-img img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media (max-width: 768px) {
